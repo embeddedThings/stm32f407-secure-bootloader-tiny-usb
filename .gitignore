@@ -1,0 +1,49 @@
+# ---- GIZLI: asla commit'lenmez ----
+*.pem
+*.key
+*.p12
+
+# ---- tools: yalnizca Python betikleri ----
+tools/*
+!tools/*.py
+!tools/README.md
+
+# ---- Derleme ciktilari (CubeIDE) ----
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+*.list
+*.o
+*.d
+*.su
+*.cyclo
+
+# ---- Hazir programlar (kaynak degil): dfu-util vb. ----
+*.exe
+*.dll
+
+# ---- Yerel IDE / sistem dosyalari ----
+.metadata/
+.settings/
+__pycache__/
+*.pyc
+Thumbs.db
+
+# ---- dfu-util (hazir program, kaynak degil): her seviyede ----
+dfu-util/
+*.a
+
+# ---- Kisisel notlar ----
+*.docx
+
+# ---- Indirme artiklari: proje kendi kopyalarini middleware/ altinda tasiyor ----
+/micro-ecc/
+/tiny-usb/
+
+# ---- Eski araclar: yerine yenileri geldi ----
+tools/make_image_v1.py
+tools/meta_dump.py
