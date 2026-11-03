@@ -47,3 +47,6 @@ dfu-util/
 # ---- Eski araclar: yerine yenileri geldi ----
 tools/make_image_v1.py
 tools/meta_dump.py
+
+# ---- Makineye ozel debug ayarlari ----
+*.launch

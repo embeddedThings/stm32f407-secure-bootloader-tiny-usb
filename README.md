@@ -74,7 +74,7 @@ Create your own pair:
 cd tools
 python gen_keys.py          # creates signing_key.pem (KEEP SECRET) and boot_public_key.h
 ```
-Copy `boot_public_key.h` into the bootloader's `config/` folder and rebuild. **Never commit `signing_key.pem`.**
+Copy `boot_public_key.h` into `STM-BOOTLOADER-UPDATED/BOOTLOADER-CODE/config/include/` (replacing the existing one) and rebuild.
 
 ## Building and installing an application
 
